@@ -1,0 +1,12 @@
+syntax = "proto3";
+package alice.checkers.checkers;
+
+import "gogoproto/gogo.proto";
+import "checkers/checkers/params.proto";
+
+option go_package = "github.com/alice/checkers/x/checkers/types";
+
+// GenesisState defines the checkers module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
