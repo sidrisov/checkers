@@ -1,7 +1,20 @@
 syntax = "proto3";
+
 package alice.checkers.checkers;
 
 option go_package = "github.com/alice/checkers/x/checkers/types";
 
 // Msg defines the Msg service.
-service Msg {}
+service Msg {
+  rpc CreateGame (MsgCreateGame) returns (MsgCreateGameResponse);
+}
+message MsgCreateGame {
+  string creator = 1;
+  string black   = 2;
+  string red     = 3;
+}
+
+message MsgCreateGameResponse {
+  string gameIndex = 1;
+}
+
