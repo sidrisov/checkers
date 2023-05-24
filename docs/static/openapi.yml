@@ -44119,6 +44119,17 @@ definitions:
     properties:
       gameIndex:
         type: string
+  alice.checkers.checkers.MsgPlayMoveResponse:
+    type: object
+    properties:
+      capturedX:
+        type: integer
+        format: int32
+      capturedY:
+        type: integer
+        format: int32
+      winner:
+        type: string
   alice.checkers.checkers.Params:
     type: object
     description: Params defines the parameters for the module.
