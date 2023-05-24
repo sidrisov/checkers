@@ -3,10 +3,10 @@ package cli
 import (
 	"strconv"
 
-	"github.com/alice/checkers/x/checkers/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
+	"github.com/sidrisov/checkers/x/checkers/types"
 	"github.com/spf13/cobra"
 )
 

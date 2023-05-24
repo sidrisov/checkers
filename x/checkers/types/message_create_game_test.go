@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
-	"github.com/alice/checkers/testutil/sample"
-	"github.com/alice/checkers/x/checkers/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/sidrisov/checkers/testutil/sample"
+	"github.com/sidrisov/checkers/x/checkers/types"
 	"github.com/stretchr/testify/require"
 )
 

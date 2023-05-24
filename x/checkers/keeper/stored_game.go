@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	"github.com/alice/checkers/x/checkers/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 // SetStoredGame set a specific storedGame in the store from its index

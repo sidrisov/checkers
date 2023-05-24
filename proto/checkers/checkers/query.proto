@@ -9,7 +9,7 @@ import "checkers/checkers/params.proto";
 import "checkers/checkers/system_info.proto";
 import "checkers/checkers/stored_game.proto";
 
-option go_package = "github.com/alice/checkers/x/checkers/types";
+option go_package = "github.com/sidrisov/checkers/x/checkers/types";
 
 // Query defines the gRPC querier service.
 service Query {

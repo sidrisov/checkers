@@ -1,9 +1,9 @@
 package checkers
 
 import (
-	"github.com/alice/checkers/x/checkers/keeper"
-	"github.com/alice/checkers/x/checkers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/sidrisov/checkers/x/checkers/keeper"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

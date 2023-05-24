@@ -3,9 +3,9 @@ package types
 import (
 	"strconv"
 
-	"github.com/alice/checkers/x/checkers/rules"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/sidrisov/checkers/x/checkers/rules"
 )
 
 const TypeMsgPlayMove = "play_move"

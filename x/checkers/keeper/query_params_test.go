@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/alice/checkers/testutil/keeper"
-	"github.com/alice/checkers/x/checkers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	testkeeper "github.com/sidrisov/checkers/testutil/keeper"
+	"github.com/sidrisov/checkers/x/checkers/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/alice/checkers/x/checkers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 // GetParams get all parameters as types.Params

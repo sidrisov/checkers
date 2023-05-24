@@ -1,4 +1,4 @@
-module github.com/alice/checkers
+module github.com/sidrisov/checkers
 
 go 1.19
 

@@ -3,9 +3,9 @@ package types
 import (
 	"fmt"
 
-	"github.com/alice/checkers/x/checkers/rules"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/sidrisov/checkers/x/checkers/rules"
 )
 
 func (storedGame StoredGame) GetBlackAddress() (black sdk.AccAddress, err error) {

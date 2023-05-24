@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
-	"github.com/alice/checkers/x/checkers/rules"
-	"github.com/alice/checkers/x/checkers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/sidrisov/checkers/x/checkers/rules"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 func (k msgServer) PlayMove(goCtx context.Context, msg *types.MsgPlayMove) (*types.MsgPlayMoveResponse, error) {

@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/alice/checkers/app"
-	"github.com/alice/checkers/cmd/checkersd/cmd"
+	"github.com/sidrisov/checkers/app"
+	"github.com/sidrisov/checkers/cmd/checkersd/cmd"
 )
 
 func main() {

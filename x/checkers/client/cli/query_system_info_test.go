@@ -9,10 +9,10 @@ import (
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 	"google.golang.org/grpc/status"
 
-	"github.com/alice/checkers/testutil/network"
-	"github.com/alice/checkers/testutil/nullify"
-	"github.com/alice/checkers/x/checkers/client/cli"
-	"github.com/alice/checkers/x/checkers/types"
+	"github.com/sidrisov/checkers/testutil/network"
+	"github.com/sidrisov/checkers/testutil/nullify"
+	"github.com/sidrisov/checkers/x/checkers/client/cli"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 func networkWithSystemInfoObjects(t *testing.T) (*network.Network, types.SystemInfo) {

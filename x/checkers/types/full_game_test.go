@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/alice/checkers/x/checkers/rules"
-	"github.com/alice/checkers/x/checkers/testutil"
-	"github.com/alice/checkers/x/checkers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/sidrisov/checkers/x/checkers/rules"
+	"github.com/sidrisov/checkers/x/checkers/testutil"
+	"github.com/sidrisov/checkers/x/checkers/types"
 	"github.com/stretchr/testify/require"
 )
 

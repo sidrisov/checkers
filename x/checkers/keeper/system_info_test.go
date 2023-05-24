@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	keepertest "github.com/alice/checkers/testutil/keeper"
-	"github.com/alice/checkers/testutil/nullify"
-	"github.com/alice/checkers/x/checkers/keeper"
-	"github.com/alice/checkers/x/checkers/types"
+	keepertest "github.com/sidrisov/checkers/testutil/keeper"
+	"github.com/sidrisov/checkers/testutil/nullify"
+	"github.com/sidrisov/checkers/x/checkers/keeper"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 func createTestSystemInfo(keeper *keeper.Keeper, ctx sdk.Context) types.SystemInfo {

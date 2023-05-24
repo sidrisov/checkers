@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/alice/checkers/x/checkers/rules"
-	"github.com/alice/checkers/x/checkers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/sidrisov/checkers/x/checkers/rules"
+	"github.com/sidrisov/checkers/x/checkers/types"
 )
 
 func (k msgServer) CreateGame(goCtx context.Context, msg *types.MsgCreateGame) (*types.MsgCreateGameResponse, error) {
